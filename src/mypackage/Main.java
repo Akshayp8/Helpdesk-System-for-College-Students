@@ -7,9 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
         // Database connection
-        String url = "jdbc:mysql://localhost:3306/clgproject";
-        String username = "root";
-        String password = "Akshata@3199";  
+        String url = Data.url;
+        String username = Data.username;
+        String password = Data.password;
         Connection connection = null;
 
         try {
