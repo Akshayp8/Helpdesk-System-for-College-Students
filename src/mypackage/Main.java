@@ -7,9 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
         // Database connection
-        String url = Data.url;
-        String username = Data.username;
-        String password = Data.password;
+        String url = Data.url; // "jdbc:mysql://localhost:3306/your_database_name"
+        String username = Data.username; // your username mostly it will be "root"
+        String password = Data.password; // "your_password"
         Connection connection = null;
 
         try {
